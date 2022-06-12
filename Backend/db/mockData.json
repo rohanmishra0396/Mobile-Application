@@ -1,0 +1,104 @@
+{
+    "school": {
+        "id": 10,
+        "name": "ABC",
+        "classes":["class1","class2","class3"]
+    },
+
+    "students":
+      {
+          "id": "student1",
+
+            "class": {
+              "A":{
+                "Reading":{
+                  "English":[
+                    {
+                      "Level": "Level 1",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 2",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 3",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    }
+                  ],
+                  "Hindi":[
+                    {
+                      "Level": "Level 1",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 2",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 3",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    }
+                  ],
+                  "Marathi":[
+                    {
+                      "Level": "Level 1",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 2",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    },
+                    {
+                      "Level": "Level 3",
+                      "id": "uuid.v4()",
+                      "wordRating": 0,
+                      "letterRating": 0
+                    }
+                  ]
+                },
+                "Maths":{}
+              }
+            }
+          
+
+      },
+
+      "Teacher":{
+        "Monu":{
+          "age": 100,
+          "expert":"Maths"
+        }
+      },
+      "classes":{
+        "id":"class1",
+        "name": "class 1",
+        "studentsReport": ["s1","s2","s3"],
+        "divisions":[{
+            "id": "class A",
+            "classTeacher": "teacherID",
+            "studentsReport": ["s1"]
+        },
+        {
+          "id": "class B",
+          "classTeacher": "teacherID",
+          "studentsReport": ["s2","s3"]
+      }]
+    }
+}
